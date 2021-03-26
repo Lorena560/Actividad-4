@@ -1,0 +1,66 @@
+header{
+    width: 1000px;
+    background-color:yellow;
+    margin: auto;
+    height: 350px;
+    text-align: center;
+    
+}
+nav{
+    width: 1000px;  
+    height: 125px; 
+    margin: auto;   
+    background-color: antiquewhite; 
+    text-align: center;
+
+    
+}
+main{
+    width: 1000px;
+    height: 500px;
+    background-color: greenyellow;
+    margin: auto; 
+}
+
+footer{
+    width: 1000px;
+    height: 50px;     
+    background-color: black;
+    margin: auto;
+    float: center;
+    text-align: center;
+    color: blanchedalmond;
+}
+section{
+    width: 25%;
+    height: 125px;
+    margin: auto;
+    float: right; 
+    text-align: center;
+    
+}
+
+.azul{
+    background-color: rgb(44, 41, 214);
+}
+
+.gris{
+    background-color: gray;
+}
+
+#izquierdo, #derecha{
+    width: 250px;
+    height: 500px;
+    background-color: green;
+    float: left;
+    text-align: center;
+}
+
+
+#centro{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    float: left;
+    text-align: center;
+}

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;    
+    
+}
+#centrar{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+body{
+    margin: auto;
+    width: 1200px;
+    height: 1400px;   
+}
+header section{
+    background-color: #8d4141;
+    height: 200px;      
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#vista1{
+	background-color: #7ba5d8;
+    height: 200px;
+    width: 100px; 
+    float: left; 
+}
+#vista2{
+	background-color: #ec5959;
+    height: 200px;
+    width: 100px; 
+    float: left;  
+}
+#vista3{
+	background-color: #a35757;
+    height: 200px;
+    width: 100px; 
+    float: left;  
+}
+#vis1{
+    background-color: #a07843;
+    height: 250px;
+    width: 400px; 
+    float: left;  
+}
+#vis2{
+    background-color: #4498cf;
+    height: 250px;
+    width: 400px; 
+    float: left;  
+}
+#vis3{
+    background-color: #c78051;
+    height: 300px;
+    width: 1000px; 
+    float: left;  
+}
+#vis4{
+    background-color: #612c2c;
+    height: 300px;
+    width: 200px; 
+    float: left;  
+}
+#vis5{
+    background-color: #e25858;
+    height: 200px;
+    width: 1200px; 
+    float: left;  
+}
+article{
+    background-color: #fab56c;   
+    width: 600px;
+    height: 150px;
+    float: left;
+   
+}
+aside{
+	background-color: #54d448;    
+    width: 600px;
+    height: 150px;
+    float: left;
+}
+footer{    
+    background-color:rgb(209, 93, 93);
+    width: 1200px;
+    height: 300px;
+    float: left;
+    color: whitesmoke;    
+}

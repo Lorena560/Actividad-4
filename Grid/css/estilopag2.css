@@ -1,0 +1,62 @@
+#contenedor{
+    display: grid;
+    grid-template-columns: 1f 1f 1f 1f 1f 1f 1f;
+    grid-template-rows: 250px 100px 500px 250px 100px;
+    border: 1px thistle solid;
+}
+
+header{
+    grid-column: 1 / span 6;
+    background-color: yellow;    
+}
+.ver1{
+    grid-column: 1 / span 2;
+    background-color: rgb(85, 236, 85);    
+}
+.ver2{
+    grid-column: 3 / span 2;
+    background-color: rgb(214, 242, 243);    
+}
+.ver3{
+    grid-column: 5 / span 2;
+    background-color: rgb(118, 234, 238);    
+}
+
+.estilo1{
+    grid-column: 1/ span 3 ;
+    background-color: rgb(233, 196, 155);
+}
+.estilo2{
+    grid-column: 4/ span 3 ;
+    background-color: orange;
+}
+
+.vista1{
+    grid-column: 1 / span 1;
+    background-color: rgb(118, 234, 238);
+}
+.vista2{
+    grid-column: 2 / span 1;
+    background-color: rgb(69, 133, 185);
+}
+.vista3{
+    grid-column: 3 / span 1;
+    background-color: rgb(118, 234, 238);
+}
+.vista4{
+    grid-column: 4 / span 1;
+    background-color: rgb(69, 133, 185);
+}
+.vista5{
+    grid-column: 5 / span 1;
+    background-color: rgb(118, 234, 238);
+}
+.vista6{
+    grid-column: 6 / span 1;
+    background-color: rgb(69, 133, 185);
+}
+
+footer{
+    grid-column: 1 / span 6;
+    background-color: black;
+}

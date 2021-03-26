@@ -1,0 +1,49 @@
+#contenedor{
+    display: grid;
+    grid-template-columns: 1f 1f 1f 1f;
+    grid-template-rows: 350px 125px 500px 50px ;
+    border: 1px black solid;
+    text-align: center;
+}
+header{
+    grid-column: 1 / span 4;
+    background-color: rgb(233, 233, 127);
+}
+
+.ver1{
+    grid-column: 1 / span 1;     
+    background-color: rgb(119, 56, 45);
+}
+.ver2{
+    grid-column: 2 / span 1;   
+    background-color: rgb(231, 162, 151);
+}
+.ver3{
+    grid-column: 3 / span 1;    
+    background-color: rgb(167, 73, 57);
+}
+.ver4{
+    grid-column: 4 / span 1;
+    background-color: rgb(209, 138, 127);
+}
+
+section{
+    grid-column: 1 / span 1;
+    background-color: rgb(165, 197, 102);
+}
+
+article{
+    grid-column: 2 / span 2;
+    background-color: rgb(137, 155, 102);
+}
+
+aside{
+    grid-column: 4 / span 1;
+    background-color: rgb(91, 102, 70);
+}
+
+footer{
+    grid-column: 1 / span 4;
+    background-color: rgb(155, 155, 99);
+    color: rgb(88, 40, 88);
+}

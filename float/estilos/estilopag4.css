@@ -1,0 +1,68 @@
+header{
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+    background-color: black;
+}
+
+nav{
+    width: 1200px;
+    height: 200px;
+    margin: auto;    
+}
+.ver1{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(141, 141, 33);
+    float: left; 
+}
+.ver2{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(32, 32, 68);
+    float: left; 
+}
+
+main{
+    width: 1200px;
+    height: 650px;
+    margin: auto;  
+}
+.verder{
+    width: 600px;
+    height: 150px;
+    background-color:rgb(68, 40, 40);
+    float: left; 
+}
+.verizqui{
+    width: 600px;
+    height: 150px;
+    background-color:rgb(42, 92, 45);
+    float: left; 
+}
+.ver3{
+    width: 1000px;
+    height: 300px;
+    background-color:rgb(109, 59, 19);
+    float: left; 
+}
+.ver4{
+    width: 200px;
+    height: 300px;
+    background-color:rgb(136, 96, 73);
+    float: left; 
+}
+aside{
+    width: 1200px;
+    height: 200px;
+    background-color: black;
+    float: left;
+}
+
+footer{
+    width: 1200px;
+    height: 300px;
+    margin: auto;
+    
+}
+
